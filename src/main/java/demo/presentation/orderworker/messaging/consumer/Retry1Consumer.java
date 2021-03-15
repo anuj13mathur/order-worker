@@ -43,7 +43,7 @@ public class Retry1Consumer {
     }
 
     private void induceDelay() {
-        LocalDateTime delay = now().plusSeconds(10);
+        LocalDateTime delay = now().plusSeconds(60);
         while (now().isBefore(delay)) ;
     }
 }

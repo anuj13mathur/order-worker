@@ -1,7 +1,7 @@
 package demo.presentation.orderworker.messaging;
 
 public class Constants {
-    public static final String SHIPPING_SERVICE_URL = "http://localhost:8085/shipping/orders";
+    public static final String SHIPPING_SERVICE_URL = "http://localhost:8086/shipping/orders";
     public static final String MAIN_TOPIC = "orders";
     public static final String RETRY_1_TOPIC = "orders.retry.1";
     public static final String RETRY_2_TOPIC = "orders.retry.2";
